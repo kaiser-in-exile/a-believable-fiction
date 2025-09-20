@@ -1,6 +1,4 @@
-export const config = {
-    dir: {
-        input: "content",
-        output: "build"
-    }
+export default function (eleventyConfig) {
+    eleventyConfig.setInputDirectory("content");
+    eleventyConfig.setOutputDirectory("build");
 }

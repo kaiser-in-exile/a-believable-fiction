@@ -1,0 +1,24 @@
+{
+  "name": "blog",
+  "version": "1.0.0",
+  "description": "A blog for random things that happen. Fictions which are believable, and reality which borders on fiction.",
+  "main": "eleventy.config.js",
+  "scripts": {
+    "build": "npx @11ty/eleventy"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/suhridmulay/a-believable-fiction.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "module",
+  "bugs": {
+    "url": "https://github.com/suhridmulay/a-believable-fiction/issues"
+  },
+  "homepage": "https://github.com/suhridmulay/a-believable-fiction#readme",
+  "dependencies": {
+    "@11ty/eleventy": "^3.1.2"
+  }
+}
