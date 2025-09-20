@@ -50,10 +50,14 @@ h1, h2, h3, h4, h5, h6 {
         "header header"
         "nav content";
     gap: var(--grid-gap);
+
+    max-width: var(--max-width);
+    margin: auto;
 }
 
 .global-header {
     grid-area: header;
+    padding: 4px;
 }
 
 .global-nav {
