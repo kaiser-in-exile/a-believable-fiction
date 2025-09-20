@@ -45,11 +45,11 @@ h1, h2, h3, h4, h5, h6 {
 
 #root {
     display: grid;
-    grid-template-columns: 
-        min-content 1fr;
-    grid-template-areas: 
-        header header
-        nav content;
+    grid-template-columns: min-content 1fr;
+    grid-template-areas:
+        "header header"
+        "nav content";
+    gap: var(--grid-gap);
 }
 
 .global-header {
