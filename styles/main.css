@@ -42,3 +42,24 @@ body {
 h1, h2, h3, h4, h5, h6 {
     font-family: var(--font-heading);
 }
+
+#root {
+    display: grid;
+    grid-template-columns: 
+        min-content 1fr;
+    grid-template-areas: 
+        header header
+        nav content;
+}
+
+.global-header {
+    grid-area: header;
+}
+
+.global-nav {
+    grid-area: nav;
+}
+
+.content-container {
+    grid-area: content;
+}
