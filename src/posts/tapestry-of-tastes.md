@@ -1,4 +1,5 @@
 ---
+layout: post.njk
 title: A Tapestry of Tastes
 ---
 
@@ -8,15 +9,15 @@ A(n opinionated) deep dive into why certain content vibes, sometimes objectively
 
 ## Surveyed Samples
 
-- Suits
+-   Suits
 
 A small tiime talented drug dealer sidekick discovers his photographic memory grants him a natural talent for law, through a chance interview nonetheless, and teams up with an equally charismatic mentor navigating the labyrintine leeways of New York law firms.
 
-- For All Mankind
+-   For All Mankind
 
 In an alternate history where the Soviet Union wins the race to the moon, The United States does all it can, to not be left picking up the scraps and leftovers. Follows through on the massive engineering challenges, amidst a backdrop of immense political and personal ramifications on earth and even beyond for all involved.
 
-- Dexter
+-   Dexter
 
 Miami has a new criminal mastermind, actively at work within the metropolitan police department. Follow dexter as he looks to sate his lust for blood but never through means which would breaak his self imposed code of righteousness
 
