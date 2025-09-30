@@ -1,8 +1,8 @@
 export default function (eleventyConfig) {
     // get main content from here
-    eleventyConfig.setInputDirectory("content");
+    eleventyConfig.setInputDirectory("src/content");
     eleventyConfig.setOutputDirectory("build");
 
     // copy over styles
-    eleventyConfig.addPassthroughCopy("styles")
+    eleventyConfig.addPassthroughCopy("src/styles")
 }
