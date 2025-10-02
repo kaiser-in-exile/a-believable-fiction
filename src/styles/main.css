@@ -15,11 +15,14 @@ body {
 #root {
 	max-width: 72ch;
 	margin: 0 auto;
-	padding-inline: 4px;
+	padding-inline: 4ch;
 }
 
 .heading-container {
 	margin-block: 5em;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
 
 	a {
 		color: inherit;
