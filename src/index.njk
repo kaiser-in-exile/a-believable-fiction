@@ -4,21 +4,64 @@ title: Home
 ---
 
 <div id="root">
-	<header class="global-header">
-		<h1>A Believeable Fiction | Home</h1>
+	<header class="heading-container">
+		<a href="/">
+			<h1 class="heading">A Believable Fiction</h1>
+		</a>
 	</header>
-	<nav class="global-nav">
-		<ul>
-			<li>
-				<a href="/posts/introducing">Introducing this blog</a>
-			</li>
-			<li>
-				<a href="/posts/tapestry-of-tastes">A Tapestry of Tastes</a>
-			</li>
-		</ul>
-	</nav>
-	<section class="content-container">
-		<h2>Hello, World</h2>
-		<p>Welcome to this blog</p>
-	</section>
+
+	<main class="article-list">
+		<article class="article-excerpt">
+			<header class="heading">
+				<h2>About...</h2>
+			</header>
+			<section class="article-section-text">
+				<p>
+					A Believable fiction is a rather ambitious, and attempting
+					to be eloquent blog written by a somewhat fictional
+					character in an attempt to make sense of a strange world
+					that the character inhabits.
+				</p>
+				<p>
+					The world of our character is indeed a strange one. A
+					reality that exists not far from our own, but a piece of
+					fiction still. With many differences, yet intriguing
+					similarities. An alice in wonderland world, but with more to
+					wonder at than just land. Filled with personalities,
+					opinions, strange looms that weave magic on button clicks,
+					and stranger entities that make words and thought out of
+					sparks in stone.
+				</p>
+				<p>
+					In all seriousness there is no specific rhyme or reason to
+					any post on the page, anything fanciful or mundane might be
+					written, edited, and just as well removed as needed, but at
+					least something will be there.
+				</p>
+			</section>
+		</article>
+		<article class="article-excerpt">
+			<header class="heading">
+				<h2>...Me</h2>
+			</header>
+			<section class="article-section-text">
+				I am an India based software developer specializing in web
+				technologies amongst several other things. I have a great love
+				of stories and songs, drama and DnD, Games and Theatery and
+				above all people and their experiences
+			</section>
+		</article>
+		<article class="article-excerpt">
+			<header class="heading">
+				<h2>Posts</h2>
+			</header>
+			<ul class="list-of-links">
+				{% for post in collections.post %}
+				<li>
+					<a href="{{ post.url }}">{{ post.data.title }}</a>
+				</li>
+				{% endfor %}
+			</ul>
+		</article>
+	</main>
 </div>
