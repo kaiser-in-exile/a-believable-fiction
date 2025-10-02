@@ -2,3 +2,89 @@
 	margin: 0;
 	padding: 0;
 }
+
+:root {
+	--heading-text-color: rgb(63, 63, 63);
+	--content-text-color: rgb(95, 95, 95);
+}
+
+body {
+	color: var(--content-text-color);
+}
+
+#root {
+	max-width: 72ch;
+	margin: 0 auto;
+}
+
+.heading-container {
+	margin-block: 5em;
+
+	a {
+		color: inherit;
+	}
+
+	.heading {
+		font-family: "Fredericka the Great", serif;
+		font-weight: 400;
+		line-height: 1.5;
+
+		color: var(--heading-text-color);
+
+		text-decoration: underline;
+		text-underline-offset: 0.5em;
+		transition-duration: 200ms;
+
+		&:hover {
+			color: #003153;
+			text-underline-offset: 0.25em;
+		}
+	}
+}
+
+.article-list {
+	display: flex;
+	flex-direction: column;
+	gap: 4em;
+
+	.article-excerpt {
+		line-height: 1.25;
+
+		.heading {
+			font-family: "Fredericka the Great", serif;
+			font-weight: 400;
+			line-height: 2;
+		}
+
+		.article-section-text {
+			display: flex;
+			flex-direction: column;
+			gap: 1.25em;
+		}
+	}
+}
+
+.list-of-links {
+	a {
+		color: inherit;
+
+		&:hover {
+			color: #003153;
+		}
+	}
+}
+
+.article {
+	line-height: 1.25;
+
+	h1,
+	h2,
+	h3,
+	h4,
+	h5,
+	h6 {
+		font-family: "Fredericka the Great", serif;
+		font-weight: 400;
+		margin-bottom: 0.5em;
+	}
+}

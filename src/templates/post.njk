@@ -5,14 +5,22 @@
 		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
 		<title>{{ title }}</title>
 		<link rel="stylesheet" href="/styles/main.css" />
+		<link rel="preconnect" href="https://fonts.googleapis.com" />
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+		<link
+			href="https://fonts.googleapis.com/css2?family=Fredericka+the+Great&display=swap"
+			rel="stylesheet"
+		/>
 	</head>
 
 	<body>
 		<div id="root">
-			<header class="global-header">
-				<h1>{{ title }}</h1>
+			<header class="heading-container">
+				<a href="{{ page.url }}">
+					<h1 class="heading">{{ title }}</h1>
+				</a>
 			</header>
-			<section class="content-container">{{ content | safe }}</section>
+			<article class="article">{{ content | safe }}</article>
 		</div>
 	</body>
 </html>

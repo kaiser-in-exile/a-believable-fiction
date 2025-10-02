@@ -1,6 +1,7 @@
 ---
 layout: post.njk
 title: Hello World
+tags: post
 ---
 
 # Introducing
