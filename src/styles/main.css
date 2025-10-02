@@ -54,6 +54,8 @@ body {
 			font-family: "Fredericka the Great", serif;
 			font-weight: 400;
 			line-height: 2;
+
+			color: var(--heading-text-color);
 		}
 
 		.article-section-text {
@@ -75,8 +77,6 @@ body {
 }
 
 .article {
-	line-height: 1.25;
-
 	h1,
 	h2,
 	h3,
@@ -85,6 +85,28 @@ body {
 	h6 {
 		font-family: "Fredericka the Great", serif;
 		font-weight: 400;
-		margin-bottom: 0.5em;
+		margin-block: 0.5em;
+
+		color: var(--heading-text-color);
+	}
+
+	p {
+		margin-block: 1em;
+		line-height: 1.5;
+	}
+
+	i,
+	a {
+		font-family: "Pacifico", cursive;
+	}
+
+	a {
+		color: #668397;
+		text-decoration: none;
+		transition-duration: 150ms;
+
+		&:hover {
+			color: #003153;
+		}
 	}
 }

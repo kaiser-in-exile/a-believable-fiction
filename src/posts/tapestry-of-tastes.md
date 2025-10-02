@@ -8,23 +8,34 @@ tags: post
 
 A(n opinionated) deep dive into why certain content vibes, sometimes objectively, better than others
 
-## Surveyed Samples
+## Sample Space
 
--   Suits
+Like every good experiment, we need a sample space of what is being considered for drawing opinionated conclusions. We are after all folks of science and not given in to superstitions. Let's establish a set of samples with some things we like, so we can pick them apart, and analyse what turns us against these beloveds.
 
-A small time talented drug dealer sidekick discovers his photographic memory grants him a natural talent for law, through a chance interview nonetheless, and teams up with an equally charismatic mentor navigating the labyrinthine leeways of New York law firms.
+<details>
+<summary> Suits </summary>
 
--   For All Mankind
+A gifted young man with a photographic memory, initially involved in small-time drug dealing, stumbles into the world of high-powered law through a chance interview. He partners with a charismatic mentor, and together they navigate the intricate and often cutthroat environment of New York law firms, leveraging their unique talents to overcome legal and personal challenges.
 
-In an alternate history where the Soviet Union wins the race to the moon, The United States does all it can, to not be left picking up the scraps and leftovers. Follows through on the massive engineering challenges, amidst a backdrop of immense political and personal ramifications on earth and even beyond for all involved.
+</details>
 
--   Dexter
+<details>
+<summary>For All Mankind</summary>
 
-Miami has a new criminal mastermind, actively at work within the metropolitan police department. Follow dexter as he looks to sate his lust for blood but never through means which would breaak his self imposed code of righteousness
+Set in an alternate history where the Soviet Union lands on the moon first, this series explores the United States' relentless efforts to catch up in the space race. The story delves into the monumental engineering feats required, while also examining the far-reaching political and personal consequences for everyone involved, both on Earth and beyond.
+
+</details>
+
+<details>
+<summary>Dexter</summary>
+
+In Miami, a brilliant forensic analyst leads a double life as a vigilante serial killer. Embedded within the police department, Dexter channels his compulsion for murder through a strict moral code, targeting only those he deems deserving. The series follows his struggle to balance his dark urges with the demands of his professional and personal life.
+
+</details>
 
 ## Common Core
 
-A common theme in all three is of sophistication. The more elaborate the better, there's an undercurrent of complexity to law, engineering, and murder. These shows present them at the crossroads of arts and science, where creativity lashes, and twists, and turns against the bounds imposed by the physical world. Sometimes upending the world itself in the process.
+A common theme in all three is of sophistication. The more elaborate the better, there's an undercurrent of complexity to [law](https://en.wikipedia.org/wiki/Law), [engineering](https://en.wikipedia.org/wiki/Engineering), and [murder](https://en.wikipedia.org/wiki/Murder). These shows present them at the crossroads of arts and science, where creativity lashes, and twists, and turns against the bounds imposed by the physical world. Sometimes upending the world itself in the process.
 
 ### Excellencies
 
