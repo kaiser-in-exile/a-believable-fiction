@@ -1,0 +1,34 @@
+/*
+Contains CSS specific to lists
+*/
+
+@property --radial-fill {
+	syntax: "<percentage>";
+	inherits: false;
+	initial-value: 0%;
+}
+
+.article {
+	ul > li:has(ul) {
+		& > p {
+			padding-block: 0.5em;
+			padding-inline-start: 2ch;
+		}
+
+		& a {
+			--radial-fill: 0%;
+			background-image: radial-gradient(red, blue);
+			background-size: 200% 200%;
+			background-position: var(--radial-fill);
+			color: transparent;
+			background-clip: text;
+
+			transition-duration: 500ms;
+
+			&:hover {
+				--radial-fill: 85%;
+				color: transparent;
+			}
+		}
+	}
+}

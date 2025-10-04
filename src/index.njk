@@ -63,5 +63,22 @@ title: Home
 				{% endfor %}
 			</ul>
 		</article>
+
+		<article class="article-excerpt">
+			<header class="heading">
+				<h2>Lists</h2>
+			</header>
+			<section class="article-section-text">
+				Some collections of mundane, and less than mundane for glancing
+				at later, or a record of what could've been something greater
+			</section>
+			<ul class="list-of-links">
+				{% for list in collections.list %}
+				<li>
+					<a href="{{ list.url }}">{{ list.data.title }}</a>
+				</li>
+				{% endfor %}
+			</ul>
+		</article>
 	</main>
 </div>

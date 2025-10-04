@@ -116,4 +116,8 @@ body {
 			color: #003153;
 		}
 	}
+
+	li {
+		margin-left: 2ch;
+	}
 }

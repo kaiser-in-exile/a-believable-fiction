@@ -7,4 +7,5 @@ export default function (eleventyConfig) {
 
     // copy over styles
     eleventyConfig.addPassthroughCopy("src/styles/main.css")
+    eleventyConfig.addPassthroughCopy("src/styles/list.css")
 }
