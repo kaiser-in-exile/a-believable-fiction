@@ -1,0 +1,12 @@
+/*
+Contains CSS specific to lists
+*/
+
+.article {
+	ul > li:has(ul) {
+		& > p {
+			padding-block: 0.5em;
+			padding-inline-start: 2ch;
+		}
+	}
+}
