@@ -23,6 +23,8 @@ Along with every post, I will endeavour to provide some ideas on how I would've 
 
 -   [Fully Automated Luxury Communism](https://chatgpt.com/share/68e103e4-cfe8-8013-826e-a78cfab2a91d). I don't have further words for this.
 
+    -   Automate it further I guess
+
 -   A very [incorrect look](https://chatgpt.com/c/fa9438e9-650f-4023-b501-b81a5408cd1e) at india's founding mythos.
 
     -   ...Drive the conversation to a more nuanced view of Indian history and the origin of it's peoples

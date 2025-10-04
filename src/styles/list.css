@@ -8,5 +8,11 @@ Contains CSS specific to lists
 			padding-block: 0.5em;
 			padding-inline-start: 2ch;
 		}
+
+		& a {
+			background-image: radial-gradient(red, blue);
+			color: transparent;
+			background-clip: text;
+		}
 	}
 }
