@@ -12,7 +12,7 @@ Along with every post, I will endeavour to provide some ideas on how I would've 
 
 # The List
 
--   A somewhat [deep dive into how window management works](https://chatgpt.com/c/68cae629-3c24-8332-9a83-7829a8e41ba0), how Windows' Approach has been very different from the one taken by apple for the same, and the consequences on that, all beginning from a conversation on display scaling.
+-   A somewhat [deep dive into how window management works](https://chatgpt.com/share/68cae931-80ac-8013-a820-27388993f8bf), how Windows' Approach has been very different from the one taken by apple for the same, and the consequences on that, all beginning from a conversation on display scaling.
 
     -   ...How does windowing work on Linux, is it different between different window managers
     -   ...What are some interesting quirks on windows and macOS, where their design choices produce rather amusing results
@@ -21,15 +21,12 @@ Along with every post, I will endeavour to provide some ideas on how I would've 
 
     -   ...Attempt to critique and rectify moral hazards present in such a policy
 
--   [Fully Automated Luxury Communism](https://chatgpt.com/share/68e103e4-cfe8-8013-826e-a78cfab2a91d). I don't have further words for this.
+-   whatever [fully automated luxury communism](https://chatgpt.com/share/68e103e4-cfe8-8013-826e-a78cfab2a91d). I don't have further words for this.
 
-    -   Automate it further I guess
+    -   Honestly, I am pretty impressed, just expand this ideology further
 
--   A very [incorrect look](https://chatgpt.com/c/fa9438e9-650f-4023-b501-b81a5408cd1e) at india's founding mythos.
+-   Attempting to create an [etruscan inspired language](https://chatgpt.com/share/68e10469-8718-8013-8a2a-85ede16f53e1).
 
-    -   ...Drive the conversation to a more nuanced view of Indian history and the origin of it's peoples
-
--   Attempting to create an [Etruscan inspired language](https://chatgpt.com/share/68e10469-8718-8013-8a2a-85ede16f53e1).
     -   ...Carry on further, see how much you can diverge this from Indo-European grammar, make it more etruscan like.
 
 # Thanks
