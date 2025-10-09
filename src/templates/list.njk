@@ -12,6 +12,16 @@
 			href="https://fonts.googleapis.com/css2?family=Fredericka+the+Great&family=Pacifico&display=swap"
 			rel="stylesheet"
 		/>
+
+		<script defer>
+			let time = 0;
+			const updateTimeInFooter = () => {
+				const footer = document.querySelector("footer");
+				const time = footer.querySelector("#time");
+				time.textContent = `${time} seconds`;
+			};
+			const i = setInterval(updateTimeInFooter, 1000);
+		</script>
 	</head>
 
 	<body>
@@ -21,7 +31,13 @@
 					<h1 class="heading">{{ title }}</h1>
 				</a>
 			</header>
+
 			<article class="article">{{ content | safe }}</article>
+
+			<footer>
+				Wow, quite the read, Now, after <span id="time"></span>, let's
+				head <a href="/">back</a>.
+			</footer>
 		</div>
 	</body>
 </html>

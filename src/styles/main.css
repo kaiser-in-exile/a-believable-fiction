@@ -103,6 +103,7 @@ body {
 	}
 
 	i,
+	em,
 	a {
 		font-family: "Pacifico", cursive;
 	}
@@ -119,5 +120,31 @@ body {
 
 	li {
 		margin-left: 2ch;
+	}
+
+	blockquote {
+		border-left: 4px solid #003153;
+		background-color: color-mix(in srgb, #003153 5%, transparent);
+		padding-left: 4ch;
+		padding-block: 0.25em;
+		font-style: italic;
+	}
+}
+
+footer {
+	i,
+	em,
+	a {
+		font-family: "Pacifico", cursive;
+	}
+
+	a {
+		color: #668397;
+		text-decoration: none;
+		transition-duration: 150ms;
+
+		&:hover {
+			color: #003153;
+		}
 	}
 }
