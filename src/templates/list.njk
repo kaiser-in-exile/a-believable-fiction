@@ -14,13 +14,45 @@
 		/>
 
 		<script defer>
+			// takes a time in seconds and converts it to a human friendly time
+			function humaniseTimeInSeconds(timeInSeconds) {
+				if (timeInSeconds < 5) {
+					return "a few seconds";
+				}
+
+				if (timeInSeconds < 20) {
+					return `several seconds`;
+				}
+
+				if (timeInSeconds < 60) {
+					return `${timeInSeconds} seconds`;
+				}
+
+				if (timeInSeconds < 4 * 60) {
+					return "A couple of minutes";
+				}
+
+				if (timeInSeconds < 10 * 60) {
+					const minutes = Math.floor(timeInSeconds / 60);
+					const leftoverSeconds = timeInSeconds % 60;
+					return `${minutes} minutes and ${leftoverSeconds} seconds`;
+				}
+
+				return `quite a while`;
+			}
+
 			let time = 0;
 			const updateTimeInFooter = () => {
 				const footer = document.querySelector("footer");
-				const time = footer.querySelector("#time");
-				time.textContent = `${time} seconds`;
+				const timeContainer = footer.querySelector("#time");
+				timeContainer.textContent = humaniseTimeInSeconds(time);
+				time += 1;
 			};
-			const i = setInterval(updateTimeInFooter, 1000);
+
+			document.addEventListener("DOMContentLoaded", () => {
+				updateTimeInFooter();
+				const i = setInterval(updateTimeInFooter, 1000);
+			});
 		</script>
 	</head>
 
