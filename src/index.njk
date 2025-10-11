@@ -80,5 +80,25 @@ title: Home
 				{% endfor %}
 			</ul>
 		</article>
+
+		<article class="article-excerpt">
+			<header class="heading">
+				<h2>Weeknotes</h2>
+			</header>
+			<section class="article-section-text">
+				Some people think structured outputs are really helpful, while I
+				am scarce on belief on people, and even scarcer on belief in
+				procedure the power of the scientific approach compels me
+				otherwise. Is there wisdom to their words? Let us attempt to
+				discover as we start using weeknotes.
+			</section>
+			<ul class="list-of-links">
+				{% for weeknote in collections.weeknotes %}
+				<li>
+					<a href="{{ weeknote.url }}">{{ weeknote.data.title }}</a>
+				</li>
+				{% endfor %}
+			</ul>
+		</article>
 	</main>
 </div>
