@@ -1,5 +1,11 @@
 @import url("./base.css");
 
+#root {
+	max-width: 72ch;
+	margin: 1em auto;
+	padding-inline: 4ch;
+}
+
 .article {
 	*[lang="hi"] {
 		font-family: "Kalam";
