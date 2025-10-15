@@ -1,17 +1,4 @@
-* {
-	margin: 0;
-	padding: 0;
-}
-
-:root {
-	--heading-text-color: rgb(63, 63, 63);
-	--content-text-color: rgb(95, 95, 95);
-}
-
-body {
-	color: var(--content-text-color);
-	font-family: "Slabo 27px", serif;
-}
+@import url("./base.css");
 
 #root {
 	max-width: 72ch;
@@ -81,58 +68,6 @@ body {
 		&:hover {
 			color: #003153;
 		}
-	}
-}
-
-.article {
-	*[lang="hi"] {
-		font-family: "Kalam";
-	}
-
-	h1,
-	h2,
-	h3,
-	h4,
-	h5,
-	h6 {
-		font-family: "Fredericka the Great", serif;
-		font-weight: 400;
-		margin-block: 0.5em;
-
-		color: var(--heading-text-color);
-	}
-
-	p {
-		margin-block: 1em;
-		line-height: 1.5;
-	}
-
-	i,
-	em,
-	a {
-		font-family: "Pacifico", cursive;
-	}
-
-	a {
-		color: #668397;
-		text-decoration: none;
-		transition-duration: 150ms;
-
-		&:hover {
-			color: #003153;
-		}
-	}
-
-	li {
-		margin-left: 2ch;
-	}
-
-	blockquote {
-		border-left: 4px solid #003153;
-		background-color: color-mix(in srgb, #003153 5%, transparent);
-		padding-left: 4ch;
-		padding-block: 0.25em;
-		font-style: italic;
 	}
 }
 

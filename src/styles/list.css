@@ -1,3 +1,5 @@
+@import url("./base.css");
+
 /*
 Contains CSS specific to lists
 */
@@ -9,6 +11,23 @@ Contains CSS specific to lists
 }
 
 .article {
+	*[lang="hi"] {
+		font-family: "Kalam";
+	}
+
+	h1,
+	h2,
+	h3,
+	h4,
+	h5,
+	h6 {
+		font-family: "Fredericka the Great", serif;
+		font-weight: 400;
+		margin-block: 0.5em;
+
+		color: var(--heading-text-color);
+	}
+
 	ul > li:has(ul) {
 		& > p {
 			padding-block: 0.5em;
@@ -17,16 +36,19 @@ Contains CSS specific to lists
 
 		& a {
 			--radial-fill: 0%;
-			background-image: radial-gradient(red, blue);
-			background-size: 200% 200%;
-			background-position: var(--radial-fill);
+			background-image: radial-gradient(
+				circle at center in lab,
+				blue var(--radial-fill),
+				red calc(100% - var(--radial-fill))
+			);
+			background-position-y: 200%;
 			color: transparent;
 			background-clip: text;
 
-			transition-duration: 500ms;
+			transition: --radial-fill 200ms ease-in-out;
 
 			&:hover {
-				--radial-fill: 85%;
+				--radial-fill: 100%;
 				color: transparent;
 			}
 		}
