@@ -11,7 +11,7 @@ const BASE_URL = "https://a-believable-fiction.netlify.app"
 
 export default function (eleventyConfig) {
     // setup global variables
-    eleventyConfig.addGlobalData("now", NOW)
+    eleventyConfig.addGlobalData("now", NOW.toISOString())
     
     // setup RSS feed specific variables
     eleventyConfig.addGlobalData("feed", { ttl: THIRTY_DAYS_IN_MINUTES, base: BASE_URL });
