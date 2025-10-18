@@ -20,15 +20,13 @@ function formatRfc822(date) {
 		second: "2-digit", // "00"
 		timeZoneName: "shortOffset", // "+0200" or equivalent for specific timezones
 		hour12: false, // Use 24-hour format
+        timeZone: "Asia/Calcutta"
 	};
 
 	// Using 'en-US' locale for consistent English abbreviations
 	const formatter = new Intl.DateTimeFormat("en-US", options);
 	const formattedDate = formatter.format(date);
 
-	// The timeZoneName option might not always produce the exact RFC 822 timezone abbreviation (e.g., EST).
-	// For precise RFC 822 compliance, especially with named timezones, manual adjustment might be necessary.
-	// The 'shortOffset' provides the numeric offset which is also valid in RFC 822.
 	return formattedDate
 }
 
@@ -41,7 +39,7 @@ export default function (eleventyConfig) {
 
 	// setup RSS feed specific variables
 	eleventyConfig.addGlobalData("feed", {
-		ttl: THIRTY_DAYS_IN_MINUTES,
+		ttl: 0,
 		base: BASE_URL,
 	});
 
