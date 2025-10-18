@@ -6,11 +6,38 @@
 	padding-inline: 4ch;
 }
 
-.article {
-	*[lang="hi"] {
-		font-family: "Kalam";
+.heading-container {
+	margin-block: 5em;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+
+	text-align: center;
+
+	a {
+		text-decoration: none;
+		color: inherit;
 	}
 
+	.heading {
+		font-family: "Fredericka the Great", serif;
+		font-weight: 400;
+		line-height: 1.5;
+
+		color: var(--heading-text-color);
+
+		text-decoration: underline;
+		text-underline-offset: 0.5em;
+		transition-duration: 200ms;
+
+		&:hover {
+			color: #003153;
+			text-underline-offset: 0.25em;
+		}
+	}
+}
+
+.article {
 	h1,
 	h2,
 	h3,
@@ -43,10 +70,10 @@
 		&:hover {
 			color: #003153;
 		}
-	}
 
-	li {
-		margin-left: 2ch;
+		&:visited {
+			color: #003153;
+		}
 	}
 
 	blockquote {
@@ -55,5 +82,10 @@
 		padding-left: 4ch;
 		padding-block: 0.25em;
 		font-style: italic;
+	}
+
+	li {
+		margin-left: 2ch;
+		margin-block: 0.5em;
 	}
 }

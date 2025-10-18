@@ -6,7 +6,7 @@ WEEK=$(date +%U)
 BRANCH_NAME="weeknotes-$YEAR-week-$WEEK"
 FILE_PATH="src/posts/weeknotes/${YEAR}-${WEEK}.md"
 
-git fetch origin main:main
+git fetch origin main:main --update-head-ok
 
 # Check if branch exists locally or remotely
 if git show-ref --quiet refs/heads/$BRANCH_NAME || git ls-remote --exit-code origin $BRANCH_NAME >/dev/null 2>&1; then

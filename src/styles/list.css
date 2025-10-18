@@ -28,6 +28,18 @@ Contains CSS specific to lists
 		color: var(--heading-text-color);
 	}
 
+	li {
+		margin-left: 4ch;
+		margin-block: 0.5em;
+
+		& p::first-letter {
+			font-family: "Fredericka The Great", serif;
+			text-transform: uppercase;
+			font-size: 2rem;
+			color: var(--heading-text-color);
+		}
+	}
+
 	ul > li:has(ul) {
 		& > p {
 			padding-block: 0.5em;
