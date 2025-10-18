@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<rss version="2.0">
+    <channel>
+        <title>A Believable Fiction</title>
+        <description>A Blog of Random things from across</description>
+        <link>https://a-believable-fiction.netlify.app</link>
+        <lastBuildDate>{{ now }}</lastBuildDate>
+        <ttl>{{ feed.ttl }}</ttl>
+
+        {% for weeknote in collections.weeknotes | reverse -%}
+        <item>
+            <title>{{ weeknote.data.title }}</title>
+            <description>{{ weeknote.data.description }}</description>
+            <link>{{ feed.base }}/{{ weeknote.url }}</link>
+        </item>
+        {% endfor %}
+
+    </channel>
+</rss>
