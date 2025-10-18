@@ -41,7 +41,7 @@ export default function (eleventyConfig) {
 
 	// setup RSS feed specific variables
 	eleventyConfig.addGlobalData("feed", {
-		ttl: 0,
+		ttl: THIRTY_DAYS_IN_MINUTES,
 		base: BASE_URL,
 	});
 
