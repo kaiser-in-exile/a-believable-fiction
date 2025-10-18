@@ -20,7 +20,7 @@ function formatRfc822(date) {
 		second: "2-digit", // "00"
 		timeZoneName: "shortOffset", // "+0200" or equivalent for specific timezones
 		hour12: false, // Use 24-hour format
-		timeZone: "Asia/Calcutta",
+		timeZone: "GMT",
 	};
 
 	// Using 'en-US' locale for consistent English abbreviations
