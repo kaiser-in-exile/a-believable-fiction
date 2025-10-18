@@ -23,7 +23,6 @@ function formatRfc822(date) {
 		timeZone: "GMT",
 	};
 
-	// Using 'en-US' locale for consistent English abbreviations
 	const formatter = new Intl.DateTimeFormat("en-GB", options);
 	const formattedDate = formatter.format(date);
 

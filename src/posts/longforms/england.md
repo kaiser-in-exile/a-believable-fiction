@@ -18,15 +18,19 @@ The peopling of Britain with modern humans, especially with anatomically modern 
 
 ### Doggerland
 
-For a part of it's history, the North Sea, was not a sea and instead a great northern plain at the very north of Europe, during the great cold ice ages, when massive portions of the the planet's water was trapped in massive ice sheets, the north sea would reveal itself to be shallow, and from it would emerge a land we now called doggerland. Stretching from what is now Denmark to England, both of them being rather hilly regions at the end of this plain, Doggerland would have been a rather lush tundra, there is a wealth of archaeological evidence for human habitation in doggerland, spear tips, arrows, marked anima skulls, all instruments of waging war against megafauna. Doggerland in some sense connected the people of what was to be Britain with the broader European landspace. Doggerland would - as the glaciers receded - disappear under the waters of the North Sea, until about ~5000BCE when Doggerland finally disappears forever severing off Britain from the rest of Europe; and what follows culturally is a remarkable process of connection.
+For a part of it's history, the North Sea, was not a sea and instead a great northern plain at the very north of Europe, during the great cold ice ages, when massive portions of the the planet's water was trapped in massive ice sheets, the north sea would reveal itself to be shallow, and from it would emerge a land we now called Doggerland. Stretching from what is now Denmark to England, both of them being rather hilly regions at the end of this plain, Doggerland would have been a rather lush tundra, there is a wealth of archaeological evidence for human habitation in Doggerland, spear tips, arrows, marked anima skulls, all instruments of waging war against megafauna. Doggerland in some sense connected the people of what was to be Britain with the broader European landspace. Doggerland would - as the glaciers receded - disappear under the waters of the North Sea, until about ~5000BCE when Doggerland finally disappears forever severing off Britain from the rest of Europe; and what follows culturally is a remarkable process of connection.
 
 ## New Stone
 
 Neolithic people are supposed to have come to Britain from two primary routes, one from a familiar to us route, which will later be used by other people of legends, through what is now Germany, Netherlands, and another through what is today spain. But they both came from the same place in the near east, bringing along with them the crops of their home. The dry weather loving barley, and wheat.
 
-With their new stone, and even more revolutionary technology of agriculture, these new people, would soon replace the pre-existing societies of Britain, the hunter gatherers, either being assimilated, or wiped out by the sheer majority of the neolithic farmers
+With their new stone, and even more revolutionary technology of agriculture, these new people, would soon replace the pre-existing societies of Britain, the hunter gatherers, either being assimilated, or wiped out by the sheer majority of the neolithic farmers. In any case, the coming of these neolithic farmers represents the start of confirmed continous human habitation in Britain, and with people, came culture, writing, society, sophistication and civilisation.
 
-Aegean ancestry - replacement of hunter gatherers - what kind of crops? - what kind of animals - artifacts? - culrue and religion
+## Early Metal, Entering the Bronze Age
+
+The bronze age represented the next big advance in human civilisation, as man unlocked the secrets of metal working. Metal working is critical because unlike stone, metal is malleable, can be beaten into thin sheets, and made into sharp points. Good for weapons of war, whether to wage against the land at the edge of a plough, or against another person at the tip of a spear.
+
+One of the earliest metals humans unlocked the secrets of was copper, but copper is slightly flawed, it is far too soft to make good implements of war. However, one way to make it harder and more durable is to add to copper, another rather well known metal, Tin, A material found in great abundance in what is today Cornwall. The resulting alloy, called bronze, is much harder, more durable, and significant enough to get a whole period of human history (something deserving a blog post of it's own)
 
 ## Sources
 
