@@ -24,7 +24,7 @@ function formatRfc822(date) {
 	};
 
 	// Using 'en-US' locale for consistent English abbreviations
-	const formatter = new Intl.DateTimeFormat("en-US", options);
+	const formatter = new Intl.DateTimeFormat("en-GB", options);
 	const formattedDate = formatter.format(date);
 
 	const parts = formattedDate.replace(/,/g, "").split(" ");
