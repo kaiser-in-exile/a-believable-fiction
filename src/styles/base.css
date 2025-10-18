@@ -3,6 +3,10 @@
 	padding: 0;
 }
 
+*[lang="hi"] {
+	font-family: "Kalam";
+}
+
 :root {
 	--heading-text-color: rgb(63, 63, 63);
 	--content-text-color: rgb(95, 95, 95);
