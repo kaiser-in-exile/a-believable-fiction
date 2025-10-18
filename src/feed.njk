@@ -9,7 +9,7 @@ eleventyExcludeFromCollections: true
         <description>A Blog of Random things from across</description>
         <atom:link href="{{ feed.base }}/feed.xml" rel="self" type="application/rss+xml" />
         <link>{{ feed.base }}</link>
-        <lastBuildDate>{{ now }}</lastBuildDate>
+        <lastBuildDate>{{ now.rfc822 }}</lastBuildDate>
         <ttl>{{ feed.ttl }}</ttl>
 
         {% for weeknote in collections.weeknotes | reverse -%}
