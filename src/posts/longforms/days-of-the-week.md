@@ -23,6 +23,10 @@ tags: post
        rgba(255, 0, 0, 1) 100%
   );
 }
+
+.conclusion {
+  font-weight: bold;
+}
 </style>
 
 _Let's explore a bit about weekdays, and where that <span class="rainbow-text">rainbow</span> comes from_
@@ -33,4 +37,48 @@ Weekdays are a surprisingly mundane but ubiquitous concept, pretty much all acro
 
 ## Roman Roots
 
-Turns out the days of the week much like several other concepts actually come from the Romans. Being the great civilised people they are, Romans much like their other civilised contemporaries required a way to track the passing of days. It is from the Romans that we get our first
+Turns out the days of the week much like several other concepts actually come from the Romans. Being the great civilised people they are, Romans much like their other civilised contemporaries required a way to track the passing of days. It is from the Romans that we get our first idea of modern days, one for their gods, Eg: one for Jupiter, one for Mercury, one for Mars, and so on...
+
+However that begs a very important question, why it today the _-day_ it is, as in has everyone been following the same basic sequence of days since time immemorial, if so who put up a marker and said today's sunday and started the week.
+
+## Daying the Date
+
+### Origin Backstory
+
+The earliest dayed date we know comes from a rather quaint and well preserved mountainside town south of Rome, near what is today the city of _Napoli_ (Naples to an english audience) where a quaint late August (date contested) was about to take a decidedly unquaint turn. In Pompeii in 79CE, the mountain the city was build next to, Mt. Vesuvius, was at the precipice of an eruption of great historical significance. And in late August, it the bubbling magma inside the earth forced itself (along with large volumes of ejecta) outside the peak, forming a great black cloud (not dissimilar to a mushroom cloud) around the mountain. A cloud which descended in a deadly rain of very hot ash and stone. A combination of magma, very hot mud, and rocks then started to make it's way down the mountain. If you were caught in the flow or this hellish earth, you could count yourself lucky, since the flow is hot enough to cause instant death, for those who managed to barricade themselves, they would suffer a much more haranguing death, being quiet nearly baked alive, trapped.
+
+Couple of days later, after this cataclysminc incident, when things would have quitened down, there would be almost nothing left of the city, nothing visible, perhaps a couple of structures poking above the mud, the suddenness of the flows means that a lot of the region got buried, and with a suddenness that lends itself well to preservation, and as a result, Pompeii is incredibly well preserved. A wealth of material from the era reaches us from Pompeii. In addition to material, another important thing that has been is graffiti, while lacking the usual gravitas, and dignitas of which the nobility of Rome are renowned for, the graffiti of Pompeii gives us a fantastic window into the lives of commoners in Rome. Examples include well wishes like:
+
+> Defecator, may everything turn out okay so that you can leave this place
+
+To achievements,
+
+Some of which were mundane
+
+> I made bread
+
+or some less so,
+
+> Hic ego puellas multas futui
+
+_(I am not going to explain that)_
+
+### Story Thickens
+
+One of the many preserved graffitis from Pompei is a small text which reads: 
+
+> Nerone Caesare Augusto Cosso Lentuol Cossil fil. Cos. VIII idus Febr(u)arius dies solis, luna XIIIIX nun(dinae) Cumis, V (idus Februarias) nun(dinae) Pompeis
+
+Note the word _nundinae_, it is related and for a separate postworthy reason. However this statement also tells us something tantalising. In english this translates to:
+
+> "In the consulship of Nero Caesar Augustus and Cossus Lentulus, son of Cossus, on the eighth day before the Ides of February (February 6), day of the sun (Sunday). The lunar day was the 14th/19th. The market day (nundinae) was at Cumae, and on the fifth day before the Ides of February (February 9), the market day was at Pompeii".
+
+We know when the consulship of Nero and Cossus was (AD 60), and thus we know the date that is referred to (February 6th) and the inscription says something very important _dies solis_, day of the Sun, i.e. Sunday. Thus making Sunday February 6th AD 60, the first know date in history with a day assigned to it, now to quickly verify....
+
+Wait what!
+
+The day is Wednesday, wth graffiti artist, not cool. However it turns out the graffiti artist is not all wrong, there's multiple ways to associate days with gods, one by the sunrise hours, and another by the sunset hours, and when we change our method of calculation, we get a Wednesday. So not all wrong, however incomplete.
+
+### Enter the cross
+
+The modern 7 day week is a blend of Roman and Jewish traditions. Founded and formalised by the Emperor Constantine the Great (who among other things is known for seeing a cross before a battle and converting to christianity because he won said battle, of and also for founding a rather small city to his name between Asia and Europe). On March 7th 321 CE, Emperor Constantine would formalise a 7 day week, also making Sunday the day of rest official. Thus marking 7th March 321 CE as officially the first confirmed Sunday, rest day by decree. Uniting the disparate calendars across the Rome and enforcing them with imperial might and grandeur. The weekday system has not changed since, thus making <u class="conclusion">7th of March 321 CE the first confirmed day of the Week, and a Sunday</u> at that. Take that, week starts on Monday suckers.
