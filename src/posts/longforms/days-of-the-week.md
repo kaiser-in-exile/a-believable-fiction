@@ -77,8 +77,13 @@ We know when the consulship of Nero and Cossus was (AD 60), and thus we know the
 
 Wait what!
 
-The day is Wednesday, wth graffiti artist, not cool. However it turns out the graffiti artist is not all wrong, there's multiple ways to associate days with gods, one by the sunrise hours, and another by the sunset hours, and when we change our method of calculation, we get a Wednesday. So not all wrong, however incomplete.
+The day is Wednesday, wth graffiti artist, not cool. However it turns out the graffiti artist is not all wrong, there's multiple ways to associate days with gods, one by the early hours of the day, and another by the later hours of the preceding day, and when we change our method of calculation, we get a Wednesday. So not all wrong, however incomplete.
 
-### Enter the cross
+Remember the word we mentioned, _nundinae_, these refer to market days. Ancient romans di not have a concept of a 7th day week, instead days were named after planets who ruled either the first hour of the day, or the last of the preceding one, and people used all sorts of different weeks, the 7 day week was not in yet.
 
-The modern 7 day week is a blend of Roman and Jewish traditions. Founded and formalised by the Emperor Constantine the Great (who among other things is known for seeing a cross before a battle and converting to christianity because he won said battle, of and also for founding a rather small city to his name between Asia and Europe). On March 7th 321 CE, Emperor Constantine would formalise a 7 day week, also making Sunday the day of rest official. Thus marking 7th March 321 CE as officially the first confirmed Sunday, rest day by decree. Uniting the disparate calendars across the Rome and enforcing them with imperial might and grandeur. The weekday system has not changed since, thus making <u class="conclusion">7th of March 321 CE the first confirmed day of the Week, and a Sunday</u> at that. Take that, week starts on Monday suckers.
+The modern 7 day week comes from Jewish traditions, and to help date with that, we have the aid of an older inscription, one which says:
+
+> year 7 of Domitian Caesar … month of Tybi 25, 1st hour of the day, sambat 6
+
+Not the sambat 6. The sixth day of Sabbath week. We know the 7th year of the Domitian Caesar (87 CE) and the date Tybi 25th corresponds to December 28th. A known friday. Thus making this day one of <em>the earliest known Friday's</em> in human history.
+
