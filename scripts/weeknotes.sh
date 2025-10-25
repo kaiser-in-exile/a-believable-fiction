@@ -1,6 +1,8 @@
 #!/usr/bin/env bash
 set -e  # exit on error
 
+script_dir=$(dirname "${BASH_SOURCE[0]}")
+
 YEAR=$(date +%Y)
 WEEK=$(date +%U)
 BRANCH_NAME="weeknotes-$YEAR-week-$WEEK"
@@ -25,7 +27,7 @@ mkdir -p weeknotes
 # Create the file if it doesn’t exist
 if [ ! -f "$FILE_PATH" ]; then
   echo "[INFO] creating new weeknote: $FILE_PATH"
-  touch "$FILE_PATH"
+  cp "$script_dir/templates/weeknotes.template.md" "$FILE_PATH"
 fi
 
 echo "[INFO] done"
