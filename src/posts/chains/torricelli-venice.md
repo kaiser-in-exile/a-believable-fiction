@@ -21,7 +21,7 @@ The mention of Torricelli the name, brings immediately to mind, the scientist Ev
 
 ## The Connections
 
-The first name of Toricelli is Evangelista, the Evangelist. An epitheth shared by an early Christian saint, from Egypt nonetheless. Celebrated in Alexandria, and the patron saint of a small Italian island city and once the most serene republic.
+The first name of Torricelli is Evangelista, the Evangelist. An epitheth shared by an early Christian saint, from Egypt nonetheless. Celebrated in Alexandria, and the patron saint of a small Italian island city and once the most serene republic.
 
 ## La Serenissima
 
