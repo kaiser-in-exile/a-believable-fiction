@@ -9,6 +9,8 @@ How a bespoke software plugin hints at a connection from an Italian Scientist to
 
 This is also my first post in a chained post. The idea behind these posts being that they are within themselves an interconnected web of ideas. They are always expanding, and quite often referencing to other posts in a similar domain. Of course this being the first post in this domain, does not have any links, however the idea is that subsequent ones will.
 
+However in the spirit of incompleteness, I will also most likely make more changes to this. Perhaps expanding on the reasoning here and there, or adding more media. This is an experiment after all.
+
 ## Circumstance
 
 I attented a session today about digital gardens. One of the presentation items stuck to me was Torricelli, which was a bespoke tool demonstrated which helped curate the digital garden. Unfortunately following some reasoning, I managed to connect it to the Most Serene Republic of Venice, I found the chain of thought pretty amusing and organic, which does made it somewhat in theme with the idea of a digital garden. Thus, I will document it out here in case someone wants to follow along to the chain.
