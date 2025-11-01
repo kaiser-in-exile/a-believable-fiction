@@ -40,11 +40,25 @@
 				return `quite a while`;
 			}
 
+			function getDurationString(totalSeconds) {
+				const seconds = totalSeconds % 60;
+				let durationString = `${seconds}s`;
+				const minutes = Math.floor(totalSeconds / 60);
+				if (minutes > 0) {
+					durationString = `${minutes}m ${durationString}`;
+				}
+				return durationString;
+			}
+
 			let time = 0;
 			const updateTimeInFooter = () => {
 				const footer = document.querySelector("footer");
-				const timeContainer = footer.querySelector("#time");
+				const timeContainer = footer.querySelector("time#time");
 				timeContainer.textContent = humaniseTimeInSeconds(time);
+
+				const durationString = getDurationString(time);
+				timeContainer.setAttribute("datetime", durationString);
+
 				time += 1;
 			};
 
@@ -67,7 +81,7 @@
 
 			<footer>
 				Wow, quite the read, Now, that you've spent
-				<span id="time"></span> here let's head <a href="/">back</a> and
+				<time id="time"></time> here let's head <a href="/">back</a> and
 				see what else we&apos;ve got.
 			</footer>
 		</div>
