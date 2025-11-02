@@ -17,11 +17,11 @@ I attented a session today about digital gardens. One of the presentation items 
 
 ## Torricelli
 
-The mention of Torricelli the name, brings immediately to mind, the scientist Evangelista Torricelli, avid listeners of science teachers across the worlds might recognise his name as familiar, since the unit of pressure `torr` is named after him. 1 Torr is equivalent to the pressure exerted at the bottom of a container of mercury (liquid in it's natural state at room temperature) which contains 1mm of mercury. The unit, is rather intimately tied to the material mercury, and it's awkward defintion, is indeed a homage to
+The mention of Torricelli the name, brings immediately to mind, the scientist Evangelista Torricelli, avid listeners of science teachers across the worlds might recognise his name as familiar, since the unit of pressure `torr` is named after him. 1 Torr is equivalent to the pressure exerted at the bottom of a container of mercury (liquid in it's natural state at room temperature) which contains 1mm of mercury. The unit, is rather intimately tied to the material mercury, and it's awkward defintion, is indeed a homage to the scientist so instrumental in shaping our understanding of fluids.
 
 ## The Connections
 
-The first name of Torricelli is Evangelista, the Evangelist. An epitheth shared by an early Christian saint, from Egypt nonetheless. Celebrated in Alexandria, and the patron saint of a small Italian island city and once the most serene republic.
+The first name of Torricelli is _Evangelista_, the Evangelist. An epitheth shared by an early Christian saint, from Egypt nonetheless. Celebrated in Alexandria, and the patron saint of a small Italian island city and once a most serene republic. Saint Mark is a celebrated saint of Christendom today and also somehow surprisingly the link between a scientist and ...
 
 ## La Serenissima
 
@@ -33,4 +33,4 @@ The emblem is none other than the extravagant emblem of the Most Serene Republic
 
 <blockquote class="reddit-embed-bq" style="height:316px" data-embed-height="316"><a href="https://www.reddit.com/r/vexillology/comments/w5ypbt/whats_your_opinion_of_the_flags_of_venice/">What's your opinion of the flag(s) of Venice?</a><br> by<a href="https://www.reddit.com/user/esdedics/">u/esdedics</a> in<a href="https://www.reddit.com/r/vexillology/">vexillology</a></blockquote><script async="" src="https://embed.reddit.com/widgets.js" charset="UTF-8"></script>
 
-A look at the post above reveals another of St. Marks' emblems, a winged lion, one more which is shared with the city of Venice. Venice itself has an immense history, from being an island of emigres frustrated of the raids which became more commonplace as the might of Rome waned, to an appendage of a briefly resurgent Roman half, to an empire of trade of it's own built on trade and commerce, and wood and coin. The humble ducat would find it's way across Europe and the Mediterranean, until the dawn of the modern world, with Pound Sterlings, and bastardised Thalers from across the Atlantic displacing this once mighty gold coin.
+A look at the post above reveals another of St. Mark's emblems, a winged lion, one more which is shared with the city of Venice. Venice itself has an immense history, from being an island of emigres frustrated of the raids which became more commonplace as the might of Rome waned, to an appendage of a briefly resurgent Greek speaking half of the Rome's immense presence , to an Empire of Enterprise of it's own built on trade and commerce, and wood and coin, the lust for spices in Europe, and the monopoly of it's supply from the Orient. The humble ducat would find it's way across Europe and the Mediterranean, until the dawn of the modern world, with Pound Sterlings, and bastardised Thalers from across the Atlantic displacing this once mighty gold coin.
