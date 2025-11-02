@@ -32,7 +32,7 @@ function formatRfc822(date) {
 }
 
 
-
+/** @param {import("@11ty/eleventy/UserConfig").default} eleventyConfig */
 export default function (eleventyConfig) {
 	// setup global variables
 	eleventyConfig.addGlobalData("now", {
