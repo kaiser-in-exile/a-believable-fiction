@@ -57,3 +57,40 @@ footer {
 		}
 	}
 }
+
+.weeknotes-list {
+	display: flex;
+	flex-direction: column;
+	gap: 8px;
+
+	li {
+		list-style: none;
+
+		a {
+			text-decoration: none;
+		}
+	}
+
+	li:nth-child(even) {
+		display: flex;
+		flex-direction: row-reverse;
+		flex-wrap: wrap;
+	}
+
+	table {
+		width: 100%;
+
+		td {
+			font-family: "Fredericka The Great", sans-serif;
+			border: 1px solid var(--heading-text-color);
+			font-size: 2em;
+			font-weight: 200;
+			color: color-mix(
+				in hsl,
+				var(--heading-text-color) 50%,
+				transparent
+			);
+			padding: 0.5em;
+		}
+	}
+}
