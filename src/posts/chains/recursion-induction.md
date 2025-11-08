@@ -1,5 +1,5 @@
 ---
-title: Recursion & Iteration
+title: Recursion & Induction
 layout: chain.njk
 ---
 
@@ -18,9 +18,15 @@ def fibonacci(n):
     return fibonacci(n - 1) + fibonacci(n - 2)
 ```
 
+When the computer for instance tries to compute the value for `fibonaci(3)` it realises that `fibonacci(3) = fibonacci(2) + fibonacci(1)`, using the final rule in the definition of the fibonacci function. With fibonacci of 1, and 2 being known values from the rules above, it can trivially compute 3, and from three being known. it can compute 4, and so on....
+
+A method, which someone with a mild familiarity of mathematics might find reminiscent of...
+
 # Understanding Induction
 
 Induction is a rather abstract proof technique, it builds upon the idea that if something is true for a value, and then the fact that something is true for a value, can demonstrate that something is true for another value, you can club these two observations, and then say that something being true for another value if you are capable of deriving another another value, you can say that what you postulated is true for the another another value as well.
+
+A rather trivial proof of sum of natural numbers follows, you may skip it if you already know how it works
 
 Let's just take the example of proving that the sum of all natural numbers upto $N$ is actually $\frac{N(N + 1)}{2}$
 
@@ -60,6 +66,30 @@ Therefore, we have now shown, that assuming the postulate true for a number $n$ 
 
 # The connection
 
-Honestly, induction feels like magic, as does recursion, with a little assumption, so many pieces simply fall into place. It is most certainly an elegant piece of logic, and when expanded it feels rather [recursive](/posts/chains/recursion-induction). One proving itself through logic, one manifesting itself through application. A tree is essentially a recursive definition, every branch a small tree in itself, but induction allows us to gleam the existence of all branches from a tree.
+Honestly, induction feels like magic, as does recursion, with a little assumption, so many pieces simply fall into place. It is most certainly an elegant piece of logic, and when expanded it feels rather [recursive](/posts/chains/recursion-induction). One proving itself through logic, one manifesting itself through application. A tree is essentially a recursive definition, every branch a small tree in itself, but induction allows us to gleam the existence of all branches from a tree from the existence of a trunk.
+
+Where recursion defines what a type is, induction allows you to reason on the type of what you might not know. They feel very much like two halves of the same coin, the same concept of building up one in structure and one in reason.
+
+I have personally found this rather poetic, two concepts, from rather different worlds (well technically not that different since computer science is a subdiscipline of mathematics) would end up just being so elegantly linked to one another.
 
 I will try and see if I can come up with a system where a recursive definition can be proved with an inductive line of reasoning.
+
+.
+
+.
+
+.
+
+.
+
+.
+
+_Section deliberately left incomplete_
+
+.
+
+.
+
+.
+
+.
