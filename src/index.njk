@@ -95,23 +95,6 @@ title: Home
 			<ul class="list-of-links weeknotes-list">
 				{% for weeknote in collections.weeknotes %}
 				<li>
-					<table>
-						<tbody>
-							<tr>
-								<td>M</td>
-								<td>T</td>
-								<td>W</td>
-								<td>T</td>
-								<td>F</td>
-								<td>S</td>
-								<td>
-									S
-									<br />
-									{{ weeknote.data.published }}
-								</td>
-							</tr>
-						</tbody>
-					</table>
 					<a href="{{ weeknote.url }}">{{ weeknote.data.title }}</a>
 				</li>
 				{% endfor %}
