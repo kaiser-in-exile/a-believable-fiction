@@ -18,7 +18,7 @@ def fibonacci(n):
     return fibonacci(n - 1) + fibonacci(n - 2)
 ```
 
-When the computer for instance tries to compute the value for `fibonaci(3)` it realises that `fibonacci(3) = fibonacci(2) + fibonacci(1)`, using the final rule in the definition of the fibonacci function. With fibonacci of 1, and 2 being known values from the rules above, it can trivially compute 3, and from three being known. it can compute 4, and so on....
+When the computer for instance tries to compute the value for `fibonacci(3)` it realises that `fibonacci(3) = fibonacci(2) + fibonacci(1)`, using the final rule in the definition of the fibonacci function. With fibonacci of 1, and 2 being known values from the rules above, it can trivially compute 3, and from three being known. it can compute 4, and so on....
 
 A method, which someone with a mild familiarity of mathematics might find reminiscent of...
 
@@ -28,7 +28,7 @@ Induction is a rather abstract proof technique, it builds upon the idea that if 
 
 A rather trivial proof of sum of natural numbers follows, you may skip it if you already know how it works
 
-Let's just take the example of proving that the sum of all natural numbers upto $N$ is actually $\frac{N(N + 1)}{2}$
+Let's just take the example of proving that the sum of all natural numbers up to $N$ is actually $\frac{N(N + 1)}{2}$
 
 The first step in induction, is to assume, that we know for some value of n, the sum of all natural numbers is as defined above.
 
@@ -42,7 +42,7 @@ One can make this simple observation that the sum of all natural numbers till $n
 
 $$ \Sigma_1^{n+1}{n} = \Sigma_1^n{n} + (n + 1) $$
 
-We know from our inductive base case, that the sum of natural numbers upto n can be assumed to be a particular derivation.
+We know from our inductive base case, that the sum of natural numbers up to n can be assumed to be a particular derivation.
 
 $$ \Sigma_1^n{n} = \frac{n \cdot (n + 1)}{2} $$
 
