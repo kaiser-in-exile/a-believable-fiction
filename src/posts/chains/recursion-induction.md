@@ -72,24 +72,4 @@ Where recursion defines what a type is, induction allows you to reason on the ty
 
 I have personally found this rather poetic, two concepts, from rather different worlds (well technically not that different since computer science is a subdiscipline of mathematics) would end up just being so elegantly linked to one another.
 
-I will try and see if I can come up with a system where a recursive definition can be proved with an inductive line of reasoning.
-
-.
-
-.
-
-.
-
-.
-
-.
-
-_Section deliberately left incomplete_
-
-.
-
-.
-
-.
-
-.
+Every recursive algorithm in itself is actually an inductive proof of it's own working.
