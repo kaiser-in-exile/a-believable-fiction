@@ -39,7 +39,7 @@ function formatRfc822(date) {
 export default function (eleventyConfig) {
 	eleventyConfig.setLibrary(
 		"md",
-		MarkdownIt().use(katex, {output: "mathml"})
+		MarkdownIt("default", {html: true}).use(katex, {output: "mathml"})
 	)
 
 	// setup global variables
