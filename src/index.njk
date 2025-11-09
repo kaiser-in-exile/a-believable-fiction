@@ -93,7 +93,7 @@ title: Home
 				discover as we start using weeknotes.
 			</section>
 			<ul class="list-of-links weeknotes-list">
-				{% for weeknote in collections.weeknotes %}
+				{% for weeknote in collections.weeknotes.reverse() %}
 				<li>
 					<a href="{{ weeknote.url }}">{{ weeknote.data.title }}</a>
 				</li>
