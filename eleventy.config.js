@@ -1,3 +1,6 @@
+import MarkdownIt from "markdown-it";
+import { katex } from "@mdit/plugin-katex";
+
 const CSS_FILES = [
 	"src/styles/base.css",
 	"src/styles/main.css",
@@ -34,6 +37,11 @@ function formatRfc822(date) {
 
 /** @param {import("@11ty/eleventy/UserConfig").default} eleventyConfig */
 export default function (eleventyConfig) {
+	eleventyConfig.setLibrary(
+		"md",
+		MarkdownIt().use(katex, {output: "mathml"})
+	)
+
 	// setup global variables
 	eleventyConfig.addGlobalData("now", {
 		iso: NOW.toISOString(),
