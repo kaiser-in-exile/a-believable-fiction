@@ -17,6 +17,7 @@ s/([0-9]*1[1-3])$/\1th/
 
 # TODO: verify if this works on linux machines
 export EXPECTED_PUBLISH_DATE=$(date -v +1w -v sun -v 10H -v 0M -v 0S -R)
+export EXPECTED_PUBLISH_DATE_ISO=$(date -v +1w -v sun -v 10H -v 0M -v 0S -Iminutes) 
 BRANCH_NAME="weeknotes-$YEAR-week-$WEEK"
 FILE_PATH="src/posts/weeknotes/${YEAR}-${WEEK}.md"
 
