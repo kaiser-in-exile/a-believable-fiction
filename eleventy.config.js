@@ -10,7 +10,7 @@ const CSS_FILES = [
 
 const NOW = new Date();
 const THIRTY_DAYS_IN_MINUTES = 30 * 24 * 60;
-const BASE_URL = "https://a-believable-fiction.netlify.app";
+const BASE_URL = "https://a-believable-fiction.pages.dev";
 
 function formatRfc822(date) {
 	const options = {
