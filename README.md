@@ -1,10 +1,14 @@
 # A Believable Fiction
 
-A blog for random things that happen. Fictions which are believable, and reality which borders on fiction. This blog is currently hosted on netlify and can be found on the URL: https://a-believable-fiction.netlify.app
+A blog for random things that happen. Fictions which are believable, and reality which borders on fiction. This blog is currently hosted on netlify and can be found on the URL: https://a-believable-fiction.pages.dev
+
+Yes, I know this used to be on netlify, but is now on cloudflare
+
+![Friendship Ended](/assets/images/netlify-to-cloudflare.jpg)
 
 ## How to Develop
 
-To develop this blog, i.e. to write more you need to have setup 
+To develop this blog, i.e. to write more you need to have setup
 
 1. NodeJS
 2. Git
@@ -20,4 +24,3 @@ The styles for the pages are found in `src/styles`. Try to keep the broader stru
 ## How To Build
 
 This is NodeJS project configured using [eleventy](https://www.11ty.dev/) for the build stack. The deployment to the production website is done automatically when one merges a PR to main.
-
