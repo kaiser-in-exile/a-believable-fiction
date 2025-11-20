@@ -59,16 +59,23 @@
 	i,
 	em,
 	a {
-		font-family: "Pacifico", cursive;
+		font-family: "Sacramento", cursive;
+		font-size: 120%;
 	}
 
 	a {
 		color: #668397;
-		text-decoration: none;
 		transition-duration: 150ms;
+
+		text-decoration-line: underline;
+		text-decoration-style: wavy;
+		text-decoration-skip: objects;
+		text-decoration-skip-ink: all;
+		text-underline-offset: 50%;
 
 		&:hover {
 			color: #003153;
+			text-underline-offset: 25%;
 		}
 
 		&:visited {

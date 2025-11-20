@@ -14,13 +14,13 @@
 
 body {
 	color: var(--content-text-color);
-	font-family: "Slabo 27px", serif;
+	font-family: "Alice", serif;
 }
 
 i,
 em,
 a {
-	font-family: "Pacifico", cursive;
+	font-family: "Sacramento", cursive;
 }
 
 .heading-container {
