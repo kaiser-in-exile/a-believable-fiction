@@ -4,7 +4,7 @@ title: Livstraedir
 tags: post
 ---
 
-The year is 9th Century England. The Viking age has just begun, the Danes are coming from the same and adjacent regions the Angles and Saxons came so many centuries ago and so many generations ago, bringing back with them the old Germanic gods to what is now a deeply divided but rich Christian country. One by one Kingdoms fall, and the Danelaw expands through England, and at the eventual precipice in the South West of Britain stands Wessex, the last Kingdom not yet subsumed in the Danelaw, and the Kingdom that would become one day become the foundation for England.
+The year is 9th Century England. The Viking age has just begun, the Danes are coming from the same and adjacent regions the Angles and Saxons once came so many centuries ago and so many generations ago, bringing back with them the old Germanic gods to what is now a deeply divided but rich Christian country. One by one Kingdoms and petty kings fall, and the Danelaw swallows England, and at the eventual precipice, in the South West of Britain, stands the Kingdom of the West Saxons, the last Kingdom not yet subsumed in the Danelaw, and the Kingdom that would endure into England.
 
 Or so the stage is set in [Bernard Cornwell's](https://www.bernardcornwell.net) fantastic [Saxon Stories](https://www.bernardcornwell.net/series/the-last-kingdom-series/). Also adapted into a [Netflix Series](https://www.netflix.com/title/80074249).
 
@@ -43,13 +43,7 @@ Written in Faroese, this translates to
 
 ### Scene
 
-This is from an early part of the Faroese Saga, detailing the deeds of one Brestir, and Beinir, who's foster sons would later bring the word of Christ to Faroe Islands. However the scene in the song is most notably un christ like. We hear of Tori crying, Spears sliding into waists, and Brestir doing something heroic, but _feeling_ a deadly wound.
-
-Clearly something tragic has happened.
-
-Brestir is perhaps gravely injured.
-
-Tori and Sigmundur traumatised.
+This is from a part of the Faroese Saga, detailing the deeds of one Brestir, and Beinir, who's foster sons would later bring the word of Christ to Faroe Islands. However the scene in the song is most notably un christ like. We hear of Tori crying, Spears sliding into waists, and Brestir doing something heroic, but _feeling_ a deadly wound in the process.
 
 The events at play here, lay out a formative tragedy in motion. Tori and Sigmundur are foster brothers, raised in the same household. Brestir, Tori's foster father, and Sigmundur's real father is out with Beinir, who is Tori's father, the purpose of their outing unclear from the Sagas. However they are set up on by some of their rival clans. In a brutal demonstration of clan feuds, enemies gather, Brestir and Beinir are ambushed, they fight bravely, but ultimately succumb to  and Tori and Sigmundur called to witness their fathers' butchery, and to be later sold into slavery.
 
