@@ -1,6 +1,6 @@
 ---
 layout: post.njk
-title: Livstraedir
+title: Lívstræðrir
 tags: post
 ---
 
@@ -18,11 +18,11 @@ All songs fantastic, and epic in their own right. However one which resonates th
 
 <iframe data-testid="embed-iframe" style="border-radius:12px" src="https://open.spotify.com/embed/track/3J2Eo7wmRl9qSSvh6qDzP7?utm_source=generator&theme=0" width="100%" height="152" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
 
-Livstraedir or the _threads of life_ is an incredibly beautiful song in it's own right, but it's beauty becomes more profound when looking into it's lyrics.
+Lívstræðrir or the _threads of life_ is an incredibly beautiful song in it's own right, but it's beauty becomes more profound when looking into it's lyrics.
 
 ## The Saga
 
-Livstraedir is light on lyrics, a collection of 4 lines from the [Faroe Islander Saga](https://en.wikipedia.org/wiki/Færeyinga_saga).
+Lívstræðrir is light on lyrics, a collection of 4 lines from the [Faroe Islander Saga](https://en.wikipedia.org/wiki/Færeyinga_saga).
 
 > Tóri runnu tár á kinn, harðnar Sigmunds sinni:</br>
 > "Grátum ikki frændi mín, vær goymum væl i minni!"
@@ -69,4 +69,4 @@ Perhaps much like Uhtred, Sigmundur, and Tori never wanted anything more than to
 
 **Spoilers End**
 
-Perhaps intelligent, or perhaps borne out of random chance, while I have always enjoyed the Saxon Stories, Livstraedir as a song becomes even more beautiful viewed through this lens of parallels and symbolism. I heartily reccomend the Saxon Stories, the accompanying Netflix series The Last Kingdom, and perhaps my own blogposts on the historic pre-pre-prequel to the events in [An Outsiders Look at Britain](/posts/longforms/england-i)
+Perhaps intelligent, or perhaps borne out of random chance, while I have always enjoyed the Saxon Stories, Lívstræðrir as a song becomes even more beautiful viewed through this lens of parallels and symbolism. I heartily reccomend the Saxon Stories, the accompanying Netflix series The Last Kingdom, and perhaps my own blogposts on the historic pre-pre-prequel to the events in [An Outsiders Look at Britain](/posts/longforms/england-i)
