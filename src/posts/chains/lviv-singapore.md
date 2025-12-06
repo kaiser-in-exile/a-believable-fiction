@@ -3,17 +3,6 @@ title: Lviv and Singapore
 layout: chain.njk
 ---
 
-<style>
-.extra-text {
-    transition-duration: 150ms;
-    opacity: 0.5;
-}
-
-.extra-text:hover {
-    opacity: 1.0;
-}
-</style>
-
 # A Tale of Two Cities
 
 Situated on the straits on Malacca, on the southenmost tip of Malay Peninsula, that juts out between Sumatra and Borneo, right on the artery of world trade, is the City of Singapore. Singapore, is a very unique city. Geographically, it might very well be the Constantinople of Asia, the bridge of commerce between the Sinicized East, and the Indicised south of Asia. Several billions, if not outright trillions of dollars worth of material passes through Singapore every year, (perhaps every month as well).
