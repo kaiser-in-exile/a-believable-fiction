@@ -1,5 +1,5 @@
 ---
-title: Germany and Brittany
+title: Along the Sea
 layout: chain.njk
 ---
 
