@@ -15,7 +15,7 @@ The region that is called Pomerania, is located between modern day Poland and Ge
 
 ![Map of Pomerania - Wikipedia](https://upload.wikimedia.org/wikipedia/commons/f/fe/Pomeraniae_Ducatus_Tabula.jpg)
 
-As the eagle eyed ones, who might have spotted between the lines, and uncovered names through history might have already spotted the connection, but now let's take a whirlwind onto the edge of Frankia.
+As the eagle eyed ones, who might have read between the lines, and uncovered names through history might have already spotted the connection, but now let's take a whirlwind onto the very edge of Frankia.
 
 ## Brittany
 
@@ -31,7 +31,7 @@ On it's human footprint too, Brittany is much unlike it's much larger state. Muc
 
 ![Armorica](https://upload.wikimedia.org/wikipedia/commons/7/73/Armorica.png)
 
-It is from these Celts, that Romans will borrow their name for this peninsula, Armorica.
+It is from these Celts, who were present before the Romans, and would later outlast Rome, that Romans will borrow their name for this peninsula, <i>Armorica</i>.
 
 ## By the Sea
 
