@@ -5,55 +5,16 @@
 		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
 		<title>{{ title }}</title>
 		<link rel="stylesheet" href="/styles/article.css" />
+		<link rel="stylesheet" href="./components/components.css" />
 		<link rel="preconnect" href="https://fonts.googleapis.com" />
 		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
 		<link href="https://fonts.googleapis.com/css2?family=Alice&family=Fredericka+the+Great&family=Kalam:wght@300;400;700&family=Sacramento&display=swap" rel="stylesheet">
 		<link rel="icon" href="/assets/favicon.png" />
-
-		<script defer>
-			// takes a time in seconds and converts it to a human friendly time
-			function humaniseTimeInSeconds(timeInSeconds) {
-				if (timeInSeconds < 5) {
-					return "a few seconds";
-				}
-
-				if (timeInSeconds < 20) {
-					return `several seconds`;
-				}
-
-				if (timeInSeconds < 60) {
-					return `${timeInSeconds} seconds`;
-				}
-
-				if (timeInSeconds < 4 * 60) {
-					return "A couple of minutes";
-				}
-
-				if (timeInSeconds < 10 * 60) {
-					const minutes = Math.floor(timeInSeconds / 60);
-					const leftoverSeconds = timeInSeconds % 60;
-					return `${minutes} minutes and ${leftoverSeconds} seconds`;
-				}
-
-				return `quite a while`;
-			}
-
-			let time = 0;
-			const updateTimeInFooter = () => {
-				const footer = document.querySelector("footer");
-				const timeContainer = footer.querySelector("#time");
-				timeContainer.textContent = humaniseTimeInSeconds(time);
-				time += 1;
-			};
-
-			document.addEventListener("DOMContentLoaded", () => {
-				updateTimeInFooter();
-				const i = setInterval(updateTimeInFooter, 1000);
-			});
-		</script>
 	</head>
 
 	<body>
+	    {% include "./components/index.njk" %}
+
 		<div id="root">
 			<header class="heading-container">
 				<a href="{{ page.url }}">
@@ -63,10 +24,7 @@
 
 			<article class="article">{{ content | safe }}</article>
 
-			<footer>
-				Wow, quite the read, Now, after <span id="time"></span>, let's
-				head <a href="/">back</a>.
-			</footer>
+			{% include "./components/footer.njk" %}
 		</div>
 	</body>
 </html>
