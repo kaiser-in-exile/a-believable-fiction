@@ -70,7 +70,10 @@ a {
 
 /* index which shows up on the left side */
 .index-container {
+	--container-width: 360px;
+
 	box-sizing: border-box;
+
 	position: fixed;
 	top: 48px;
 	left: 48px;
@@ -79,7 +82,7 @@ a {
 	flex-direction: column;
 	gap: 16px;
 
-	width: 360px;
+	width: var(--container-width);
 
 	transition-duration: 500ms;
 
@@ -93,7 +96,7 @@ a {
 	hr {
 		width: 4px;
 		color: var(--content-text-color);
-		opacity: 0.1;
+		opacity: 0.3;
 		transition-duration: 500ms;
 	}
 
@@ -153,18 +156,26 @@ a {
 
 	.index-content {
 		transition-duration: 500ms;
+
 		height: 360px;
+		overflow-y: auto;
+		overflow-x: hidden;
 	}
 
+	/* this horrible expression computes when the sidebar will start intersecting with content */
 	@media (max-width: calc(10vw + 240px + 96px + 72ch + (calc(100vw - 72ch) / 2))) {
 		top: unset;
 		bottom: 48px;
 		left: 48px;
 		right: 48px;
 
+		width: calc(100vw - 48px - 48px);
+
 		&:hover {
 			.index-content {
 				height: 240px;
+				overflow-y: auto;
+				overflow-x: hidden;
 			}
 		}
 
