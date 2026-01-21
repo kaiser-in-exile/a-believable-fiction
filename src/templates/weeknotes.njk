@@ -9,62 +9,6 @@
 		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
 		<link href="https://fonts.googleapis.com/css2?family=Alice&family=Fredericka+the+Great&family=Kalam:wght@300;400;700&family=Sacramento&display=swap" rel="stylesheet">
 		<link rel="icon" href="/assets/favicon.png" />
-
-		<script defer>
-			// takes a time in seconds and converts it to a human friendly time
-			function humaniseTimeInSeconds(timeInSeconds) {
-				if (timeInSeconds < 5) {
-					return "a few seconds";
-				}
-
-				if (timeInSeconds < 20) {
-					return `several seconds`;
-				}
-
-				if (timeInSeconds < 60) {
-					return `${timeInSeconds} seconds`;
-				}
-
-				if (timeInSeconds < 4 * 60) {
-					return "A couple of minutes";
-				}
-
-				if (timeInSeconds < 10 * 60) {
-					const minutes = Math.floor(timeInSeconds / 60);
-					const leftoverSeconds = timeInSeconds % 60;
-					return `${minutes} minutes and ${leftoverSeconds} seconds`;
-				}
-
-				return `quite a while`;
-			}
-
-			function getDurationString(totalSeconds) {
-				const seconds = totalSeconds % 60;
-				let durationString = `${seconds}s`;
-				const minutes = Math.floor(totalSeconds / 60);
-				if (minutes > 0) {
-					durationString = `${minutes}m ${durationString}`;
-				}
-				return durationString;
-			}
-
-			let time = 0;
-			const updateTimeInFooter = () => {
-				const footer = document.querySelector("footer");
-				const timeContainer = footer.querySelector("time#time");
-				timeContainer.textContent = humaniseTimeInSeconds(time);
-
-				const durationString = getDurationString(time);
-				timeContainer.setAttribute("datetime", durationString);
-
-				time += 1;
-			};
-
-			document.addEventListener("DOMContentLoaded", () => {
-				updateTimeInFooter();
-				const i = setInterval(updateTimeInFooter, 1000);
-			});
-		</script>
 	</head>
 
 	<body>
@@ -77,11 +21,7 @@
 
 			<article class="article">{{ content | safe }}</article>
 
-			<footer>
-				Wow, quite the read, Now, that you've spent
-				<time id="time"></time> here let's head <a href="/">back</a> and
-				see what else we&apos;ve got.
-			</footer>
+			{% include "./components/footer.njk" %}
 		</div>
 	</body>
 </html>

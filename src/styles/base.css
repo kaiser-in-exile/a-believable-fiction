@@ -1,28 +1,42 @@
+/*
+Base contains common styles which are relevant across pages
+This includes sitewide fonts, and component level specialisations
+*/
+
+:root {
+	--heading-text-color: rgb(63, 63, 63);
+	--content-text-color: rgb(95, 95, 95);
+	--subtitle-text-color: rgb(196, 196, 196);
+
+	--font-family-en-body: "Alice";
+	--font-family-en-heading: "Fredericka the Great";
+
+	--font-family-hi: "Kalam";
+
+	--font-family-italics: "Sacramento";
+}
+
 * {
 	margin: 0;
 	padding: 0;
 }
 
 *[lang="hi"] {
-	font-family: "Kalam";
-}
-
-:root {
-	--heading-text-color: rgb(63, 63, 63);
-	--content-text-color: rgb(95, 95, 95);
+	font-family: var(--font-family-hi);
 }
 
 body {
 	color: var(--content-text-color);
-	font-family: "Alice", serif;
+	font-family: var(--font-family-en-body), serif;
 }
 
 i,
 em,
 a {
-	font-family: "Sacramento", cursive;
+	font-family: var(--font-family-italics), cursive;
 }
 
+/* headings */
 .heading-container {
 	margin-block: 5em;
 	display: flex;
@@ -37,7 +51,7 @@ a {
 	}
 
 	.heading {
-		font-family: "Fredericka the Great", serif;
+		font-family: var(--font-family-en-heading), serif;
 		font-weight: 400;
 		line-height: 1.5;
 
@@ -52,4 +66,127 @@ a {
 			text-underline-offset: 0.25em;
 		}
 	}
+}
+
+/* index which shows up on the left side */
+.index-container {
+	--container-width: 360px;
+
+	box-sizing: border-box;
+
+	position: fixed;
+	top: 48px;
+	left: 48px;
+
+	display: flex;
+	flex-direction: column;
+	gap: 16px;
+
+	width: var(--container-width);
+
+	transition-duration: 500ms;
+
+	padding-block: 16px;
+	padding-inline: 24px;
+	border-radius: 8px;
+
+	background-color: rgba(0, 0, 0, 0.05);
+	backdrop-filter: blur(4px);
+
+	hr {
+		width: 4px;
+		color: var(--content-text-color);
+		opacity: 0.3;
+		transition-duration: 500ms;
+	}
+
+	a:hover + hr {
+		color: var(--heading-text-color);
+		opacity: 0.8;
+		width: 100%;
+	}
+
+	.index-trigger {
+		display: block;
+		border: none;
+		outline: none;
+		background-color: transparent;
+
+		font-family: inherit;
+		text-align: left;
+	}
+
+	.index-posts-list {
+		display: flex;
+		overflow: auto;
+
+		height: 100%;
+		min-height: 0;
+	}
+
+	.index-title-contaier {
+		display: flex;
+		flex-direction: column;
+
+		margin-block: 8px;
+
+		.index-title {
+			color: var(--heading-text-color);
+		}
+
+		.index-subtitle {
+			color: var(--subtitle-text-color);
+		}
+	}
+
+	ul {
+		display: flex;
+		flex-direction: column;
+
+		gap: 16px;
+
+		li {
+			list-style-type: none;
+			a {
+				color: var(--content-text-color);
+				text-decoration: none;
+			}
+		}
+	}
+
+	.index-content {
+		transition-duration: 500ms;
+
+		height: 360px;
+		overflow-y: auto;
+		overflow-x: hidden;
+	}
+
+	/* this horrible expression computes when the sidebar will start intersecting with content */
+	@media (max-width: calc(10vw + 240px + 96px + 72ch + (calc(100vw - 72ch) / 2))) {
+		top: unset;
+		bottom: 48px;
+		left: 48px;
+		right: 48px;
+
+		width: calc(100vw - 48px - 48px);
+
+		&:hover {
+			.index-content {
+				height: 240px;
+				overflow-y: auto;
+				overflow-x: hidden;
+			}
+		}
+
+		.index-content {
+			height: 0;
+			overflow: hidden;
+		}
+	}
+}
+
+/* footer */
+footer {
+	margin-bottom: 512px;
 }
