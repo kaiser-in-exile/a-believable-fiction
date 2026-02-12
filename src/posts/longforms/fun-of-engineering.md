@@ -18,7 +18,7 @@ Across on the other end of Eurasia, China has a millenia old tradition of impres
 
 ![Dujiangyan Irrigation System, Chengdu, Sichuan, China](/assets/images/china-waterworks.jpg)
 
-The modern economic behemoth of the United States, owes large part of it's prosperity and infrastructure to the decades of effort in building the country railroad by road, road by road, and dam by dam, all under the watchful eye of several engineers. Engineers imagining something as simple as
+The modern economic behemoth of the United States, owes large part of it's prosperity and infrastructure to the decades of effort in building the country railroad by railroad, road by road, and dam by dam, all under the watchful eye of several engineers. people would crisscross a continent in iron and steel. Engineers imagining something as simple as
 
 $$ \mathbf{F} = m \cdot \mathbf{a} $$
 
