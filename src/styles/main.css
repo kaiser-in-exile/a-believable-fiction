@@ -44,7 +44,7 @@ footer {
 	i,
 	em,
 	a {
-		font-family: "Sacramento", cursive;
+		font-family: var(--font-family-italics), cursive;
 	}
 
 	a {
