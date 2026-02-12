@@ -59,8 +59,7 @@
 	i,
 	em,
 	a {
-		font-family: "Sacramento", cursive;
-		font-size: 120%;
+		font-family: var(--font-family-italics), cursive;
 	}
 
 	a {
