@@ -47,3 +47,7 @@ Computers have brought upon unprecedented capability, what required the thoughts
 Technologies like Large Language Models, (LLMs) represent an unprecedented degree of offloading of thought, and most depressingly, ridding ourselves of the smaller delights of engineering. LLMs are a great tool, but the incessant noise they have generated, along with the ceaseless accompanying pursuit of results over process, make these tools a net negative for my broader engineering experience.
 
 The LLM as a tool is fabulous, a miracle of engineering in itself, a model of human language which mimics speech like people, yet much like any tool, we seem to be in a process of experiment and discovery on their usage, with the current trend being deeply pessimistic.
+
+## Resources used
+
+- wikimedia commons for the images.
