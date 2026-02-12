@@ -195,6 +195,34 @@ a {
 	flex-direction: column;
 	gap: 16px;
 
+	h1,
+	h2,
+	h3,
+	h4,
+	h5,
+	h6 {
+		font-family: var(--font-family-en-heading);
+		color: var(--heading-text-color);
+	}
+
+	hr {
+		width: 80%;
+		margin: 4px auto;
+		height: 2px;
+		background-image: linear-gradient(to right, blue, red, blue);
+
+		border: none;
+		outline: none;
+	}
+
+	.webring {
+		margin: 4px auto;
+		display: flex;
+		flex-direction: column;
+		gap: 4px;
+		align-items: center;
+	}
+
 	.badge-gallery {
 		display: flex;
 		flex-direction: column;
