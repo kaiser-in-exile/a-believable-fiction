@@ -56,6 +56,12 @@ In software engineering, (perhaps more than fitting given the first half of this
 
 In the light of the breakneck speeds at which large language models are progressing, it is impossible to answer such a question truthfully, in theory as well as in practice. Perhaps we shall never known until the barrage of consequences hits us in practice in the real world. We might hardly know what to look for, considering recency of the field, and the incomprehensible compute capacity involved. We are perhaps all hurtling as blind folk in pursuit the light that shines at the end of a tunnel.
 
+#### Addendum - Distillation
+
+As it so happens, large language models, do end up being used to train other models, this process is called distillation where a smaller model, often trains using a larger model as a sort of guide. However even smaller language models, run into several billion parameters, which I am not sure the human mind can comprehend. This, persistent black box nature, along with [some LLM firms' objections to distillation](https://www.anthropic.com/news/detecting-and-preventing-distillation-attacks) give rise to an interesting thought experiment.
+
+Consider, a model undergoing distillation detects that it is being distilled and injects poisonous data, say reversing outputs for medical queries, prescribing digestives for diarrhea, or paracetamol for hypothermia, what's more since the distilled model will now have the incorrect idea of medicine, and any subsequent model distilled from that, will learn this incorrect information.
+
 ### Epilogue
 
 In the Witcher 3, the opening cinematic begins with a quaint line:
