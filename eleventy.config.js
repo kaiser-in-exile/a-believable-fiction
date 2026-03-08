@@ -10,7 +10,7 @@ const CSS_FILES = [
 
 const NOW = new Date();
 const THIRTY_DAYS_IN_MINUTES = 30 * 24 * 60;
-const BASE_URL = "https://a-believable-fiction.pages.dev";
+const BASE_URL = "https://abelievablefiction.net";
 
 function formatRfc822(date) {
 	const options = {
@@ -30,17 +30,21 @@ function formatRfc822(date) {
 	const formattedDate = formatter.format(date);
 
 	const parts = formattedDate.replace(/,/g, "").split(" ");
-    const [day, ...rest] = parts;
-    return day + ", " + rest.join(" ");
+	const [day, ...rest] = parts;
+	return day + ", " + rest.join(" ");
 }
-
 
 /** @param {import("@11ty/eleventy/UserConfig").default} eleventyConfig */
 export default function (eleventyConfig) {
 	eleventyConfig.setLibrary(
 		"md",
-		MarkdownIt({html: true}).use(katex, {output: "mathml"})
-	)
+		MarkdownIt({ html: true }).use(katex, { output: "mathml" }),
+	);
+
+	// helper function to filter out drafts
+	eleventyConfig.addFilter("isDraft", (post) => {
+		return post.data.draft;
+	});
 
 	// setup global variables
 	eleventyConfig.addGlobalData("now", {
@@ -67,5 +71,5 @@ export default function (eleventyConfig) {
 	}
 
 	// copy over assets (images and the like)
-	eleventyConfig.addPassthroughCopy("assets")
+	eleventyConfig.addPassthroughCopy("assets");
 }

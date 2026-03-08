@@ -1,8 +1,9 @@
 ---
 title: $POST_TITLE
 description: $DESCRIPTION
-published: $EXPECTED_PUBLISH_DATE
-publishedISO: $EXPECTED_PUBLISH_DATE_ISO
+published:
+publishedISO:
 layout: post.njk
 tags: post
+draft: true
 ---
