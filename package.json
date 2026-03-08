@@ -1,28 +1,29 @@
 {
-  "name": "blog",
-  "version": "1.0.0",
-  "description": "A blog for random things that happen. Fictions which are believable, and reality which borders on fiction.",
-  "main": "eleventy.config.js",
-  "scripts": {
-    "dev": "npx @11ty/eleventy --serve",
-    "build": "npx @11ty/eleventy",
-    "weeknote": "./scripts/weeknotes.sh"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/suhridmulay/a-believable-fiction.git"
-  },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
-  "type": "module",
-  "bugs": {
-    "url": "https://github.com/suhridmulay/a-believable-fiction/issues"
-  },
-  "homepage": "https://github.com/suhridmulay/a-believable-fiction#readme",
-  "dependencies": {
-    "@11ty/eleventy": "^3.1.2",
-    "@mdit/plugin-katex": "^0.23.2",
-    "markdown-it": "^14.1.0"
-  }
+	"name": "blog",
+	"version": "1.0.0",
+	"description": "A blog for random things that happen. Fictions which are believable, and reality which borders on fiction.",
+	"main": "eleventy.config.js",
+	"scripts": {
+		"dev": "npx @11ty/eleventy --serve",
+		"build": "npx @11ty/eleventy",
+		"weeknote": "./scripts/weeknotes.sh",
+		"post": "./scripts/posts.sh"
+	},
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/suhridmulay/a-believable-fiction.git"
+	},
+	"keywords": [],
+	"author": "",
+	"license": "ISC",
+	"type": "module",
+	"bugs": {
+		"url": "https://github.com/suhridmulay/a-believable-fiction/issues"
+	},
+	"homepage": "https://github.com/suhridmulay/a-believable-fiction#readme",
+	"dependencies": {
+		"@11ty/eleventy": "^3.1.2",
+		"@mdit/plugin-katex": "^0.23.2",
+		"markdown-it": "^14.1.0"
+	}
 }
