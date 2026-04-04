@@ -18,7 +18,7 @@ Other hot takes can be found at the page [Hot takes from IndieWebClub in the abs
 
 ## Establishing the Argument
 
-Before I attempt to refute the argument, I would like to construct a version of the argument to be refuted. I would assume the writing in this argument applies to the action of inscribing creativity expression as an application of language onto a persistent medium, and the substance of the argument is that the era of using paper as that medium is at a close.
+Before I attempt to refute the argument, I would like to construct a version of the argument to be refuted. I would assume the writing in this argument applies to the action of inscribing creative expression as an application of language onto a persistent medium, and the substance of the argument is that the era of using paper as that medium is at a close.
 
 ## Counterpoint
 
