@@ -13,11 +13,13 @@
 
 	<body>
 		<div id="root">
-			<header class="heading-container">
+			{% include "./components/header.njk" %}
+
+			<div class="heading-container">
 				<a href="{{ page.url }}">
 					<h1 class="heading">{{ title }}</h1>
 				</a>
-			</header>
+			</div>
 
 			<article class="article">{{ content | safe }}</article>
 

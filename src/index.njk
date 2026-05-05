@@ -16,17 +16,23 @@ title: Home
 				<h2>About...</h2>
 			</header>
 			<section class="article-section-text">
+				<p>Hello Reader,</p>
 				<p>
-					A Believable fiction is a rather ambitious, and attempting
-					to be eloquent blog written by a somewhat fictional
-					character in an attempt to make sense of a strange world
-					that the character inhabits.
+					I started this blog, to write about random things, and
+					discover more ways I could engage with the internet, back in
+					<time datetime="2025-09-20T12:18:00+05:30">September 2025</time>, at a session of
+					<a href="https://blr.indiewebclub.org">Indie Web Club, Bangalore</a>. This blog has evolved since
+					then to be a social media,
+					and a journal of sorts. Ergo this contains the results of
+					several indieweb sessions, my own experiments, links to
+					things I do, and hidden subgraphs of pages, and a rather convenient archive. It is largely a
+					freeform digital repository of my thoughts, mixed with some styling to make it appealing to the
+					onlooker.
 				</p>
-				<p>
-					In all seriousness there is no specific rhyme or reason to
-					any post on the page, anything fanciful or mundane might be
-					written, edited, and just as well removed as needed, but at
-					least something will be there.
+				<p>By and large, if anything, the blog is a perpetual work in progress, perhaps similar to digital
+					gardens, but not quite it, definitely not a standard blog given how infrequently I write things.
+					However definitely a space I own, am responsible for, and control. By most counts this blog is an
+					internet version of home. I intend to keep it as such. Perhaps a bit mixed up, mismatched in places, but fun and original and most definitely signature and craft.
 				</p>
 			</section>
 		</article>
@@ -35,10 +41,17 @@ title: Home
 				<h2>...Me</h2>
 			</header>
 			<section class="article-section-text">
-				I am an India based software developer specializing in web
-				technologies amongst several other things. I have a great love
-				of stories and songs, drama and DnD, Games and Theatery and
-				above all people and their experiences
+				<p>
+					I am a(n India based) software developer by profession, and a nerd by reputation by most counts from
+					friends. Some of
+					my hobbies include programming for fun and recreation, playing Dungeons and Dragons, exploring
+					cities on
+					foot, light reading of classics, light learning of languages, and a lot of other light things. On
+					the heavier side lies my choice of Music as an avid metal fanatic, and on the deep end of my likes is my deep passion for history and lifelong learning. 
+				</p>
+				<p>
+					If you want to reach out with a cool project idea, discuss something, send me an email at: <a href="mailto:connect@abelievablefiction.net">connect@abelievablefiction.net</a>, and I shall respond.
+				</p>
 			</section>
 		</article>
 		<article class="article-excerpt">
@@ -46,13 +59,11 @@ title: Home
 				<h2>Posts</h2>
 			</header>
 			<ul class="list-of-links">
-				{% for post in collections.post %}
-				{% if not post | isDraft %}
+				{% for post in collections.post %} {% if not post | isDraft %}
 				<li>
 					<a href="{{ post.url }}">{{ post.data.title }}</a>
 				</li>
-				{% endif %}
-				{% endfor %}
+				{% endif %} {% endfor %}
 			</ul>
 		</article>
 
@@ -78,16 +89,17 @@ title: Home
 				<h2>Weeknotes</h2>
 			</header>
 			<section class="article-section-text">
-				Some people think structured outputs are really helpful, while I
-				am scarce on belief on people, and even scarcer on belief in
-				procedure the power of the scientific approach compels me
-				otherwise. Is there wisdom to their words? Let us attempt to
-				discover as we start using weeknotes.
+				<p>In some weeks more consistently than others, I have tried to record activities of mine in a weeknote. You can find these recorded weeknotes in a section below</p>
 			</section>
 			<ul class="list-of-links weeknotes-list">
 				{% for weeknote in collections.weeknotes.reverse() %}
 				<li>
-					<a href="{{ weeknote.url }}">{{ weeknote.data.title }}</a>
+					<a href="{{ weeknote.url }}">
+					<p class="weeknote-link">
+					{{ weeknote.data.title }}
+					</p>
+					<p class="weeknote-description">This weeknote covers the week(s) preceeding {{ weeknote.data.publishedISO | humanFriendlyDate }}. While the description for the weeknote only mentions <em>{{ weeknote.data.description }}</em>, I am sure there's more to the week than that.</p>
+					</a>
 				</li>
 				{% endfor %}
 			</ul>
