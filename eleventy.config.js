@@ -12,6 +12,16 @@ const NOW = new Date();
 const THIRTY_DAYS_IN_MINUTES = 30 * 24 * 60;
 const BASE_URL = "https://abelievablefiction.net";
 
+const HumanFriendlyDateFormat = Intl.DateTimeFormat("en-IN", {
+		year: "numeric",      // e.g., 2026
+		month: "long",        // e.g., May
+		day: "numeric",       // e.g., 6
+		weekday: "long",      // e.g., Wednesday
+		hour: "2-digit",      // e.g., 09
+		minute: "2-digit",    // e.g., 05
+		hour12: false          // 24-hour format
+})
+
 function formatRfc822(date) {
 	const options = {
 		weekday: "short", // "Wed"
@@ -44,6 +54,11 @@ export default function (eleventyConfig) {
 	// helper function to filter out drafts
 	eleventyConfig.addFilter("isDraft", (post) => {
 		return post.data.draft;
+	});
+
+	eleventyConfig.addFilter("humanFriendlyDate", (date) => {
+		const d = new Date(date);
+		return HumanFriendlyDateFormat.format(d);
 	});
 
 	// setup global variables

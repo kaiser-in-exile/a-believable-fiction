@@ -12,8 +12,6 @@
 	gap: 4em;
 
 	.article-excerpt {
-		line-height: 1.25;
-
 		.heading {
 			font-family: "Fredericka the Great", serif;
 			font-weight: 400;
@@ -61,20 +59,43 @@ footer {
 .weeknotes-list {
 	display: flex;
 	flex-direction: column;
-	gap: 8px;
+	gap: 16px;
+
+	margin-block: 16px;
 
 	li {
 		list-style: none;
+		transition-duration: 200ms;
+
+		a {
+			display: block;
+			border-radius: 8px;
+			padding: 8px;
+			font-family: inherit;
+			text-decoration: none;
+			line-height: 1.5;
+			perspective-origin: 5cm;
+			transition-duration: 200ms;
+		}
+
+		&:hover {
+			a {
+				background-color: color-mix(in srgb, var(--content-text-color) 5%, var(--background-color));
+				transform: scale(1.05);
+			}
+		}
+
+		.weeknote-title {
+			font-weight: bold;
+		}
+
+		.weeknote-description {
+			font-size: 12px;
+		}
 
 		a {
 			text-decoration: none;
 		}
-	}
-
-	li:nth-child(even) {
-		display: flex;
-		flex-direction: row-reverse;
-		flex-wrap: wrap;
 	}
 
 	table {

@@ -60,6 +60,8 @@
 	em,
 	a {
 		font-family: var(--font-family-italics), cursive;
+		/* I have no idea why this override is needed, but without it all the italics cause extra line heights and that's ugly */
+		line-height: 1;
 	}
 
 	a {
